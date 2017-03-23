@@ -11,7 +11,7 @@ export class CompositeRandomNumberService {
   constructor(private service: RandomNumberService) {
   }
 
-  getRandomNumberFrom0To1000() : number {
+  getRandomNumberFrom0To1000(): number {
     const randomBase = this.service.getRandomNumber(0, 1000);
 
     if (randomBase < 0 || randomBase > 1000) {

@@ -9,6 +9,7 @@ import { StandaloneButtonComponent } from './isolated-unit-tests/standalone-comp
 import { ButtonWithServiceComponent } from "./isolated-unit-tests/components-with-services/button-with-service.component";
 import {MultiplierPanelComponent} from "./isolated-unit-tests/components-with-io/multiplier-panel.component";
 import {MultiplierButtonComponent} from "./isolated-unit-tests/components-with-io/multiplier-button.component";
+import {ButtonWithService2Component} from "./isolated-unit-tests/components-with-services/button-with-service-2.component";
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import {MultiplierButtonComponent} from "./isolated-unit-tests/components-with-i
     // Components
     StandaloneButtonComponent,
     ButtonWithServiceComponent,
+    ButtonWithService2Component,
     MultiplierPanelComponent,
     MultiplierButtonComponent,
     // Pipes
